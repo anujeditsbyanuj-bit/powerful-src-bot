@@ -1,0 +1,27 @@
+# Telegram session files — contain reusable auth state, never commit
+*.session
+*.session-journal
+
+# Runtime log/error artifacts
+logs.txt
+unknown_errors.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pythonlibs/
+
+# Pyrogram/Telethon downloads cache
+downloads/
+
+# Google Drive OAuth token
+token.pickle
+
+# Environment
+.env
+
+# Replit
+.replit
+replit.nix
+.cache/
